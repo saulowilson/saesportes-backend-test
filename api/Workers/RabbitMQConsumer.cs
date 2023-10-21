@@ -33,6 +33,7 @@ namespace api.Workers
             _logger.LogInformation(_appSettings.RabbitMQHost);
             _logger.LogInformation(_appSettings.RabbitMQUser);
             _logger.LogInformation(_appSettings.RabbitMQPassword);
+            await Task.Delay(3000); //Tempo para o RabbitMQ iniciar
             try
             {
                 var factory = new ConnectionFactory()

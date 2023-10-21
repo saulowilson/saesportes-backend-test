@@ -11,4 +11,7 @@ Olá, este repositório consiste em um projeto de teste de backend para SA Espor
 
 # Executando o projeto
 O projeto está todo configurado para rodar no docker. Para rodar, execute o seguinte comando na pasta raíz onde o docker-compose.yml se encontra:
+
 ``docker compose up``
+
+O projeto encontra-se disponível em ``http://localhost:4200``

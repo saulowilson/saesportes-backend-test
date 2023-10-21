@@ -26,5 +26,3 @@ services:
     build: ./front
     ports:
       - 4200:80
-    environment:
-      - name=value

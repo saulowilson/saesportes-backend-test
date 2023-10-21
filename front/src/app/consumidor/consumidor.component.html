@@ -1,0 +1,14 @@
+<section class="consumidor">
+  <div class="card">
+    <h3 style="margin-bottom: 20px;">Lista de labels</h3>
+    <ul class="message-container">
+      <div *ngIf="messages.length == 0" class="empty-messages-container">
+        <p>Não há mensagens</p>
+      </div>
+      <li *ngFor="let message of messages">
+        <p>{{ message.Text }}</p>
+        <span class="message-status" [class]="message.IsValid ? 'valid' : 'invalid'">{{message.IsValid ? "String válida" : "String inválida"}}</span>
+      </li>
+    </ul>
+  </div>
+</section>

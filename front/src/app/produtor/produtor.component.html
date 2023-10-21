@@ -1,0 +1,9 @@
+<section class="produtor">
+  <div class="card">
+    <div class="input-container">
+      <input type="text" [(ngModel)]="inputText" placeholder="Insira um texto"/>
+      <button (click)="onClickGenerateRandomString()">Gerar texto aleatório</button>
+    </div>
+    <button class="btn-blue" [disabled]="!inputText" (click)="onSendButtonClick()">Enviar</button>
+  </div>
+</section>

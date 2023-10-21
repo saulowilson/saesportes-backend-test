@@ -1,0 +1,54 @@
+section.consumidor {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-container {
+  width: 100%;
+  li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+}
+
+.message-status {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  &.valid {
+    background-color: green;
+  }
+
+  &.invalid {
+    background-color: red;
+  }
+}
+
+.empty-messages-container {
+  p {
+    color: #ccc;
+  }
+}

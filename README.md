@@ -14,4 +14,7 @@ O projeto está todo configurado para rodar no docker. Para rodar, execute o seg
 
 ``docker compose up``
 
-O projeto encontra-se disponível em ``http://localhost:4200``
+O projeto encontra-se disponível em 
+
+``http://localhost:4200/produtor``
+``http://localhost:4200/consumidor``
